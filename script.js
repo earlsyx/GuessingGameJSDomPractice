@@ -93,3 +93,29 @@ document.querySelector('.again').addEventListener('click', function () {
 });
 
 /*refractoring - restructuring the code without changing how it works */
+
+/*Binary Search
+public int BinarySearch(int[] nums, int target) {
+int l = 0, r = nums.Length - 1;
+
+while (l <= r) {
+int mid = l - (l - r) / 2;
+if (nums[mid] > target) {
+   r = m - 1;
+}
+else if (nums[mid] < target) {
+  l = m + 1;
+}
+  else {
+  return mid;
+  }
+}
+
+return -1;
+}
+
+
+
+
+
+*/
